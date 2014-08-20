@@ -1,0 +1,10 @@
+DEPENDENCIES
+  glustertest
+    path: cookbook
+
+GRAPH
+  annoyances (1.0.0)
+  build-essential (2.0.2)
+  glustertest (0.0.1)
+    annoyances (= 1.0.0)
+    build-essential (= 2.0.2)
